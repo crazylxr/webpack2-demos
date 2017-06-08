@@ -32,7 +32,7 @@ import webpack from "./webpack.jpg";
 
 然后安装url-loader
 
-```Bash
+```#Bash
 npm install --save-dev url-loader
 ```
 修改webpack.config.js
