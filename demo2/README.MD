@@ -32,7 +32,7 @@ import webpack from "./webpack.jpg";
 
 然后安装url-loader
 
-```#Bash
+```Bash
 npm install --save-dev url-loader
 ```
 修改webpack.config.js
@@ -65,7 +65,7 @@ module.exports = {
 ## less和css打包
 新建一个index.css文件和index.less文件
 
-```#Bash
+```Bash
 touch app/index.css
 touch app/index.less
 ```
@@ -115,7 +115,7 @@ import "./index.css";
 ```
 安装css-loader、style-loader和less-loader
 
-```#Bash
+```Bash
 npm install --save-dev css-loader style-loader less-loader
 ```
 修改webpack.config.js如下
