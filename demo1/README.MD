@@ -1,7 +1,7 @@
 ## 牛刀小试
 首先切换目录到你的工作空间
 
-```
+```Bash
 mkdir reactDemo  //新建目录
 cd reactDemo/   //切换到reactDemo下
 npm init -y   //初始化package.json
@@ -34,7 +34,7 @@ Webpack需要某些配置才能完成给他的工作。所以我们需要创建�
 touch webpack.config.js
 ```
 然后在该文件中填入以下代码：
-```
+```Javacript
 var path = require('path');
 var webpack = require('webpack');
 
@@ -57,7 +57,7 @@ touch index.js
 ```
 在index.html中添加以下代码
 
-```
+```html
 <html>
   <head>
     <meta charset="utf-8">
